@@ -1,0 +1,49 @@
+.center-logo{
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
+  font-size: 40px;
+  border: 2px solid black;
+  padding: 5px;
+
+}
+
+.switch-controls{
+    margin-top: 60px;
+    max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 90px;
+}
+
+.switchonkey{
+    font-size: 30px;
+    padding: 20px ;
+}
+
+.switchoffkey{
+     font-size: 30px;
+     padding: 20px ;
+}
+
+.log,.state{
+width: 500px;
+height: 50px;
+background-color: orange;
+padding: 10px;
+margin-top: 40px;
+border-radius: 10px;
+border: 1px solid black;
+font-size: 30px;
+text-align: center;
+}
+
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 30px;
+}
